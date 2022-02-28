@@ -45,7 +45,7 @@ base_site = "https://editorial.rottentomatoes.com/guide/140-essential-action-mov
 
 # sending a request to the webpage
 response = requests.get(base_site)
-response.status_code
+response
 
 
 # In[4]:
